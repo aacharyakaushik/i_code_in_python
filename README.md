@@ -1,6 +1,6 @@
 # i_code_in_python
 
-Codes written in python by Kaushik
+Codes written in python by amaetur programmer.
 
 1. Generate_graph
 This python file was written to plot graph of the following
