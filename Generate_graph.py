@@ -2,6 +2,7 @@ import matplotlib.pyplot as plt
 x = [7, 12, 3303, 3844, 11383,155462, 1078176]
 y = [0.005859, 0.010010, 2.839111, 3.369141, 10.299805,	136.911865,	1083.556396 ]
 
+print("Hello")
 plt.plot(x,y,marker = 'o')
 plt.xlabel('Input Size')
 plt.ylabel('Construction Time')
