@@ -1,0 +1,25 @@
+>Decision Tree Accuracy
+78.36829836829837 %
+>Decsion Tree Time(s) 
+0.31101393699645996
+ 
+>Naive Bayes Accuracy
+51.002331002331005 %
+>Naive Bayes Time(s)
+0.08308625221252441
+ 
+>SVM Accuracy
+82.33100233100232 %
+>SVM Time(s)
+7559.128570795059
+ 
+>Logostic Regression Accuracy
+82.75058275058275 %
+>Logistic Regresion Time(s)
+0.35581445693969727
+ 
+>KNN Accuracy
+80.0932400932401 %
+>KNN Time(s)
+1.0289990901947021
+ 
