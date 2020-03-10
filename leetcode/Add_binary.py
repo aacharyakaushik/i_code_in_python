@@ -10,6 +10,8 @@ def addBinary(self, a: str, b: str) -> str:
 
     bin_sum = bin(int(a, 2) + int(b, 2))
     print(bin_sum)
+    # this binary has '0b' as the initial part of the string,
+    # removing it by [2:]
     return bin_sum[2:]
 
 
