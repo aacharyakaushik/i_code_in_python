@@ -33,7 +33,8 @@ def mergeTwoLists(self, l1: ListNode, l2: ListNode) -> ListNode:
     return final.next
 
 
+l1 = ListNode(1, 2, 3)
+l2 = ListNode(1, 3, 4)
 
-
-p = mergeTwoLists(mergeTwoLists, [1,2,3], [1,3,4])
+p = mergeTwoLists(mergeTwoLists, l1, l2)
 print(p)
