@@ -1,0 +1,6 @@
+import pandas as pd
+
+compare_file = pd.read_csv("C:/Users/Kaushik Acharya/Documents/R Scripts/i_code_in_R/4_kaushik/hardiness/Output_data/AG_weather/grid_AG_compare.csv")
+
+locations = [compare_file.grid_lat, compare_file.grid_long]
+locations["location"] = locations["grid_lat"].astype(str)+ locations["grid_long"].astype(str)
