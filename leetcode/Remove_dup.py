@@ -14,6 +14,7 @@ def removeDuplicates(self, nums: List[int]) -> int:
     return count, nums
 
 
-p, q = removeDuplicates(removeDuplicates, '1, 1, 2')
+input_1 = [1, 1, 2]
+p, q = removeDuplicates(removeDuplicates, input_1)
 print(p)
 print(q)
