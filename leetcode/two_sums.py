@@ -44,5 +44,5 @@ def twoSum(self, nums, target):
 #             return nums.index(x,y)
 
 
-p = twoSum(twoSum, [3, 3], 6)
+p = twoSum(twoSum, [2,7,11,15], 9)
 print(p)
