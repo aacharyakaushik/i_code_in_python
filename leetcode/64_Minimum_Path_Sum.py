@@ -1,7 +1,7 @@
 """
 @author: Kaushik Acharya
 """
-
+from typing import List
 
 
 def minPathSum(self, grid: List[List[int]]) -> int:
